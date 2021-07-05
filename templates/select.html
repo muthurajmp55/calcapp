@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<title>Select the method to be called</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='/css/login.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style type="text/css">
+      .error{
+        color:red;
+      }
+    </style>
+</head>
+<p>The select element is used to create a drop-down list.</p>
+
+<form method="POST" onsubmit="return check();">
+ 	<label for="Funtion">Choose a Function:</label>
+    <select name="Fn" id="fun">
+        <option value="Febnocci">Febnocci</option>
+        <option value="Auckerman">Auckerman</option>
+        <option value="Factorial">Factorial</option>
+    </select>
+  	<br><br>
+	<input id="input" type="text" style="width:100px;" label for="Enter Number">
+  	<br><br>
+ <button type="submit" onclick="check(event)" name="Submit"><b>Submit</b>  </button>
+  <span id='message'>{{msg}}</span>
+</form>
+<p>Click the "Submit" Flask api will called</p>
+<br><br>
+<form >
+  <label for="fname">Output :</label>
+  <input type="text" id="fname" name="fname">
+</form> 
+</body>
+<script>
+    function check(event) {
+        event.preventDefault();
+        document.getElementById('message').innerHTML = "calculating";
+		var parser = document.createElement('a');
+		parser.href = window.location;
+        var url = parser.origin+"/";
+        var fn1=document.getElementById('fun').value
+        var numbers =document.getElementById('input').value
+		if (fn1 == "Febnocci") {
+        	url = url + "feb?n=" + numbers;
+        }else if (fn1 == "Auckerman") {
+  			var res = numbers.split(",");
+            url = url + "ack?n=" + res[0] + "&m="+res[1];
+		} else if (fn1 == "Factorial")  {
+  			url = url + "fac?n=" + numbers;
+		
+		}
+	console.log(url)
+        fetch(url)
+            .then(function(response) {
+            if (response.ok) {
+                return response.json();
+            } else {
+                throw new Error("Could not reach the API: " + response.statusText);
+            }
+        }).then(function(data) {
+		document.getElementById('message').innerHTML = 'completed';
+		document.getElementById('fname').value =data['ouput']
+           console.log(data);
+        }).catch(function(error) {
+            console.log(data);
+        });
+        return true;
+    }
+  </script>
+</html>

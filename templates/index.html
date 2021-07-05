@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CBA Employee Recruitments</title>
+
+    <!-- Font Icon -->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='fonts/material-icon/css/material-design-iconic-font.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
+    <!-- Main css -->
+    <!-- <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}"> -->
+    <style type="text/css">
+        input,select{
+            border:1px solid #9da0a6;
+        }
+        .signup-form{
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-form">
+                    <!-- Flash message after form submit starts -->
+                    {% with messages = get_flashed_messages() %}
+                      {% if messages %}
+                        {% for message in messages %}
+                          <span id="flash_message" class="flash_message" style="color:green;">{{ message }}</span>
+                        {% endfor %}
+                      {% endif %}
+                    {% endwith %}
+                    <!-- Flash message after form submit end -->
+                    <h1 style="text-align: center;">Home Page</h1>
+                    <a style="float:right; margin: 20px" href = "{{ url_for('insert') }}">Add</a>
+                    <a style="float:right; margin: 20px" href = "{{ url_for('export') }}">Export</a>
+                    <table  id="example" class="display" style="width:100%">
+                        <thead>
+                            <tr style="text-align: left;">
+                                <th>Name</th><th>Role</th><th>Team</th><th>Status</th><th>ACTION</th>            
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for res in result %}
+                            <tr>
+                                <td>{{res[0]}}</td>
+                                <td>{{res[1]}}</td>
+                                <td>{{res[2]}}</td>
+                                <td>{{res[3]}}</td>
+                                <td><a href="{{res[4]}}">Edit</a></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>                            
+                    </table>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="{{url_for('static', filename='vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{url_for('static', filename='js/main.js')}}"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable();
+            $('.flash_message').delay(1000).hide();
+        } );
+    </script>
+</body>
+</html>

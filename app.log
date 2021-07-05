@@ -1,0 +1,336 @@
+2021-07-05 06:23:28,145 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-05 06:23:28,145 INFO werkzeug MainThread :  * Running on http://172.31.3.124:5001/ (Press CTRL+C to quit)
+2021-07-05 06:23:28,150 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-05 06:23:28,361 WARNING werkzeug MainThread :  * Debugger is active!
+2021-07-05 06:23:28,362 INFO werkzeug MainThread :  * Debugger PIN: 819-426-748
+2021-07-05 06:23:31,476 INFO calc Thread-2 : Started Auckerman....
+2021-07-05 06:23:31,477 INFO calc Thread-2 : ackermann(0,3): 4
+2021-07-05 06:23:31,477 INFO calc Thread-2 : execution time: 0:00:00.000211
+2021-07-05 06:23:31,477 INFO calc Thread-2 : Number of calls: 0
+2021-07-05 06:23:31,477 INFO calc Thread-2 : Output :{"input": {"n": 3, "m": 0}, "ouput": 4, "Message": "Success"}
+2021-07-05 06:23:31,478 INFO werkzeug Thread-2 : 103.140.16.110 - - [05/Jul/2021 06:23:31] "GET /ack?n=3&m=0 HTTP/1.1" 200 -
+2021-07-05 06:23:33,383 INFO calc Thread-3 : Started Auckerman....
+2021-07-05 06:23:33,383 INFO calc Thread-3 : ackermann(0,3): 4
+2021-07-05 06:23:33,383 INFO calc Thread-3 : execution time: 0:00:00.000095
+2021-07-05 06:23:33,384 INFO calc Thread-3 : Number of calls: 0
+2021-07-05 06:23:33,384 INFO calc Thread-3 : Output :{"input": {"n": 3, "m": 0}, "ouput": 4, "Message": "Success"}
+2021-07-05 06:23:33,384 INFO werkzeug Thread-3 : 103.140.16.110 - - [05/Jul/2021 06:23:33] "GET /ack?n=3&m=0 HTTP/1.1" 200 -
+2021-07-05 06:23:53,274 INFO werkzeug Thread-5 : 103.140.16.110 - - [05/Jul/2021 06:23:53] "[33mGET /monitoring HTTP/1.1[0m" 404 -
+2021-07-05 06:24:07,807 INFO werkzeug Thread-8 : 103.140.16.110 - - [05/Jul/2021 06:24:07] "[33mGET /dashboard/overview HTTP/1.1[0m" 404 -
+2021-07-05 06:25:17,558 INFO apscheduler.scheduler MainThread : Scheduler started
+2021-07-05 06:25:17,558 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2021-07-05 06:25:17,567 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2021-07-05 06:25:17,605 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-05 06:25:17,606 INFO werkzeug MainThread :  * Running on http://172.31.3.124:5001/ (Press CTRL+C to quit)
+2021-07-05 06:25:17,606 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-05 06:25:18,464 INFO apscheduler.scheduler MainThread : Scheduler started
+2021-07-05 06:25:18,464 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2021-07-05 06:25:18,475 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2021-07-05 06:25:18,509 WARNING werkzeug MainThread :  * Debugger is active!
+2021-07-05 06:25:18,510 INFO werkzeug MainThread :  * Debugger PIN: 819-426-748
+2021-07-05 06:25:22,748 INFO werkzeug Thread-2 : 103.140.16.110 - - [05/Jul/2021 06:25:22] "[32mGET /dashboard/overview HTTP/1.1[0m" 302 -
+2021-07-05 06:25:23,068 INFO werkzeug Thread-3 : 103.140.16.110 - - [05/Jul/2021 06:25:23] "GET /dashboard/login HTTP/1.1" 200 -
+2021-07-05 06:25:23,463 INFO werkzeug Thread-4 : 103.140.16.110 - - [05/Jul/2021 06:25:23] "GET /dashboard/static/css/app.css HTTP/1.1" 200 -
+2021-07-05 06:25:23,773 INFO werkzeug Thread-5 : 103.140.16.110 - - [05/Jul/2021 06:25:23] "GET /dashboard/static/js/app.js HTTP/1.1" 200 -
+2021-07-05 06:25:23,794 INFO werkzeug Thread-6 : 103.140.16.110 - - [05/Jul/2021 06:25:23] "GET /dashboard/static/img/header.png HTTP/1.1" 200 -
+2021-07-05 06:25:25,720 INFO werkzeug Thread-7 : 103.140.16.110 - - [05/Jul/2021 06:25:25] "GET /dashboard/static/fonts/fa-solid-900.woff2 HTTP/1.1" 200 -
+2021-07-05 06:25:26,932 INFO werkzeug Thread-8 : 103.140.16.110 - - [05/Jul/2021 06:25:26] "GET /dashboard/static/pages/overview.html HTTP/1.1" 200 -
+2021-07-05 06:25:26,939 INFO werkzeug Thread-9 : 103.140.16.110 - - [05/Jul/2021 06:25:26] "GET /dashboard/static/img/favicon.ico HTTP/1.1" 200 -
+2021-07-05 06:27:14,535 INFO werkzeug Thread-11 : 103.140.16.110 - - [05/Jul/2021 06:27:14] "[32mPOST /dashboard/login HTTP/1.1[0m" 302 -
+2021-07-05 06:27:14,841 INFO werkzeug Thread-10 : 103.140.16.110 - - [05/Jul/2021 06:27:14] "GET /dashboard/ HTTP/1.1" 200 -
+2021-07-05 06:27:15,227 INFO werkzeug Thread-12 : 103.140.16.110 - - [05/Jul/2021 06:27:15] "[36mGET /dashboard/static/css/app.css HTTP/1.1[0m" 304 -
+2021-07-05 06:27:15,537 INFO werkzeug Thread-13 : 103.140.16.110 - - [05/Jul/2021 06:27:15] "[36mGET /dashboard/static/js/app.js HTTP/1.1[0m" 304 -
+2021-07-05 06:27:15,978 INFO werkzeug Thread-14 : 103.140.16.110 - - [05/Jul/2021 06:27:15] "[36mGET /dashboard/static/fonts/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2021-07-05 06:27:16,438 INFO werkzeug Thread-15 : 103.140.16.110 - - [05/Jul/2021 06:27:16] "GET /dashboard/static/elements/menu.html HTTP/1.1" 200 -
+2021-07-05 06:27:16,447 INFO werkzeug Thread-16 : 103.140.16.110 - - [05/Jul/2021 06:27:16] "GET /dashboard/static/elements/modal.html HTTP/1.1" 200 -
+2021-07-05 06:27:16,473 INFO werkzeug Thread-17 : 103.140.16.110 - - [05/Jul/2021 06:27:16] "[36mGET /dashboard/static/pages/overview.html HTTP/1.1[0m" 304 -
+2021-07-05 06:27:17,151 INFO werkzeug Thread-18 : 103.140.16.110 - - [05/Jul/2021 06:27:17] "GET /dashboard/api/custom_graphs HTTP/1.1" 200 -
+2021-07-05 06:27:17,494 INFO werkzeug Thread-19 : 103.140.16.110 - - [05/Jul/2021 06:27:17] "GET /dashboard/api/overview HTTP/1.1" 200 -
+2021-07-05 06:27:18,170 INFO werkzeug Thread-20 : 103.140.16.110 - - [05/Jul/2021 06:27:18] "GET /dashboard/static/elements/monitorLevel.html HTTP/1.1" 200 -
+2021-07-05 06:27:18,378 INFO werkzeug Thread-21 : 103.140.16.110 - - [05/Jul/2021 06:27:18] "GET /dashboard/api/deploy_details HTTP/1.1" 200 -
+2021-07-05 06:28:16,720 INFO werkzeug Thread-23 : 103.140.16.110 - - [05/Jul/2021 06:28:16] "GET /login HTTP/1.1" 200 -
+2021-07-05 06:28:17,112 INFO werkzeug Thread-25 : 103.140.16.110 - - [05/Jul/2021 06:28:17] "[32mGET /static//css/login.css HTTP/1.1[0m" 308 -
+2021-07-05 06:28:17,428 INFO werkzeug Thread-26 : 103.140.16.110 - - [05/Jul/2021 06:28:17] "GET /static/css/login.css HTTP/1.1" 200 -
+2021-07-05 06:28:52,184 INFO werkzeug Thread-27 : 103.140.16.110 - - [05/Jul/2021 06:28:52] "POST /login HTTP/1.1" 200 -
+2021-07-05 06:28:52,621 INFO werkzeug Thread-28 : 103.140.16.110 - - [05/Jul/2021 06:28:52] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2021-07-05 06:29:27,763 INFO calc Thread-31 : Started Febnocci....
+2021-07-05 06:29:27,763 INFO calc Thread-31 : Output :{"input": "4", "ouput": 3, "Message": "Success"}
+2021-07-05 06:29:27,765 INFO werkzeug Thread-31 : 103.140.16.110 - - [05/Jul/2021 06:29:27] "GET /feb?n=4 HTTP/1.1" 200 -
+2021-07-05 06:29:37,058 INFO calc Thread-34 : Started Febnocci....
+2021-07-05 06:29:37,058 INFO calc Thread-34 : Output :{"input": "10", "ouput": 55, "Message": "Success"}
+2021-07-05 06:29:37,060 INFO werkzeug Thread-34 : 103.140.16.110 - - [05/Jul/2021 06:29:37] "GET /feb?n=10 HTTP/1.1" 200 -
+2021-07-05 06:30:38,034 INFO apscheduler.scheduler MainThread : Scheduler has been shut down
+2021-07-05 06:30:38,034 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2021-07-05 06:30:38,034 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2021-07-05 06:30:38,189 INFO apscheduler.scheduler MainThread : Scheduler has been shut down
+2021-07-05 06:30:38,189 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2021-07-05 06:30:38,190 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2021-07-05 06:55:34,820 INFO apscheduler.scheduler MainThread : Scheduler started
+2021-07-05 06:55:34,820 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2021-07-05 06:55:34,831 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2021-07-05 06:55:34,869 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-05 06:55:34,869 INFO werkzeug MainThread :  * Running on http://172.31.3.124:5001/ (Press CTRL+C to quit)
+2021-07-05 06:55:34,870 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-05 06:55:35,746 INFO apscheduler.scheduler MainThread : Scheduler started
+2021-07-05 06:55:35,747 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2021-07-05 06:55:35,759 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2021-07-05 06:55:35,793 WARNING werkzeug MainThread :  * Debugger is active!
+2021-07-05 06:55:35,794 INFO werkzeug MainThread :  * Debugger PIN: 346-795-841
+2021-07-05 06:57:44,353 INFO werkzeug Thread-2 : 103.140.16.110 - - [05/Jul/2021 06:57:44] "POST /login HTTP/1.1" 200 -
+2021-07-05 06:57:44,763 INFO werkzeug Thread-3 : 103.140.16.110 - - [05/Jul/2021 06:57:44] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2021-07-05 06:57:48,131 INFO calc Thread-6 : Started Febnocci....
+2021-07-05 06:57:48,132 INFO calc Thread-6 : Output :{"input": "3", "ouput": 2, "Message": "Success"}
+2021-07-05 06:57:48,133 INFO werkzeug Thread-6 : 103.140.16.110 - - [05/Jul/2021 06:57:48] "GET /feb?n=3 HTTP/1.1" 200 -
+2021-07-05 06:57:53,585 INFO calc Thread-9 : Started Auckerman....
+2021-07-05 06:57:53,586 INFO calc Thread-9 : ackermann(1,3): 5
+2021-07-05 06:57:53,586 INFO calc Thread-9 : execution time: 0:00:00.000249
+2021-07-05 06:57:53,586 INFO calc Thread-9 : Number of calls: 1
+2021-07-05 06:57:53,586 INFO calc Thread-9 : Cache Hit count: 0
+2021-07-05 06:57:53,586 INFO calc Thread-9 : Cache Miss count: 1
+2021-07-05 06:57:53,586 INFO calc Thread-9 : Output :{"input": {"n": 3, "m": 1}, "ouput": 5, "Message": "Success"}
+2021-07-05 06:57:53,587 INFO werkzeug Thread-9 : 103.140.16.110 - - [05/Jul/2021 06:57:53] "GET /ack?n=3&m=1 HTTP/1.1" 200 -
+2021-07-05 06:58:07,255 INFO calc Thread-12 : Started Auckerman....
+2021-07-05 06:58:07,255 ERROR calc Thread-12 : Output for Auckerman :{"input": {"n": 0, "m": 10}, "Message": "For this input, calculation is not psossible due to memory constrains,will get memory error, enter correct data"}
+2021-07-05 06:58:07,256 INFO werkzeug Thread-12 : 103.140.16.110 - - [05/Jul/2021 06:58:07] "GET /ack?n=0&m=10 HTTP/1.1" 200 -
+2021-07-05 06:58:16,824 INFO calc Thread-15 : Started Auckerman....
+2021-07-05 06:58:16,825 INFO calc Thread-15 : ackermann(0,10): 11
+2021-07-05 06:58:16,825 INFO calc Thread-15 : execution time: 0:00:00.000202
+2021-07-05 06:58:16,825 INFO calc Thread-15 : Number of calls: 0
+2021-07-05 06:58:16,825 INFO calc Thread-15 : Cache Hit count: 0
+2021-07-05 06:58:16,825 INFO calc Thread-15 : Cache Miss count: 0
+2021-07-05 06:58:16,825 INFO calc Thread-15 : Output :{"input": {"n": 10, "m": 0}, "ouput": 11, "Message": "Success"}
+2021-07-05 06:58:16,826 INFO werkzeug Thread-15 : 103.140.16.110 - - [05/Jul/2021 06:58:16] "GET /ack?n=10&m=0 HTTP/1.1" 200 -
+2021-07-05 06:58:33,061 INFO calc Thread-18 : started webservice factorial...
+2021-07-05 06:58:33,061 INFO calc Thread-18 : Output :{'input': '10', 'ouput': 3628800, 'Message': 'Success'}
+2021-07-05 06:58:33,062 INFO werkzeug Thread-18 : 103.140.16.110 - - [05/Jul/2021 06:58:33] "GET /fac?n=10 HTTP/1.1" 200 -
+2021-07-05 06:59:51,667 INFO calc Thread-21 : started webservice factorial...
+2021-07-05 06:59:51,667 INFO calc Thread-21 : Output :{'input': '5', 'ouput': 120, 'Message': 'Success'}
+2021-07-05 06:59:51,676 INFO werkzeug Thread-21 : 103.140.16.110 - - [05/Jul/2021 06:59:51] "GET /fac?n=5 HTTP/1.1" 200 -
+2021-07-05 07:00:07,854 INFO calc Thread-23 : started webservice factorial...
+2021-07-05 07:00:07,855 INFO calc Thread-23 : Output :{'input': '5', 'ouput': 120, 'Message': 'Success'}
+2021-07-05 07:00:07,856 INFO werkzeug Thread-23 : 103.140.16.110 - - [05/Jul/2021 07:00:07] "GET /fac?n=5 HTTP/1.1" 200 -
+2021-07-05 07:00:08,464 INFO calc Thread-25 : Started Febnocci....
+2021-07-05 07:00:08,465 INFO calc Thread-25 : Output :{"input": "6", "ouput": 8, "Message": "Success"}
+2021-07-05 07:00:08,466 INFO werkzeug Thread-25 : 103.140.16.110 - - [05/Jul/2021 07:00:08] "GET /feb?n=6 HTTP/1.1" 200 -
+2021-07-05 07:00:09,087 INFO calc Thread-27 : Started Auckerman....
+2021-07-05 07:00:09,087 INFO calc Thread-27 : ackermann(1,1): 3
+2021-07-05 07:00:09,087 INFO calc Thread-27 : execution time: 0:00:00.000211
+2021-07-05 07:00:09,087 INFO calc Thread-27 : Number of calls: 1
+2021-07-05 07:00:09,087 INFO calc Thread-27 : Cache Hit count: 0
+2021-07-05 07:00:09,087 INFO calc Thread-27 : Cache Miss count: 1
+2021-07-05 07:00:09,088 INFO calc Thread-27 : Output :{"input": {"n": 1, "m": 1}, "ouput": 3, "Message": "Success"}
+2021-07-05 07:00:09,089 INFO werkzeug Thread-27 : 103.140.16.110 - - [05/Jul/2021 07:00:09] "GET /ack?n=1&m=1 HTTP/1.1" 200 -
+2021-07-05 07:00:09,703 INFO calc Thread-29 : started webservice factorial...
+2021-07-05 07:00:09,703 ERROR calc Thread-29 : Output {"input": "ad", "Message": "Error due to invalid literal for int() with base 10: 'ad'"}
+2021-07-05 07:00:09,704 INFO werkzeug Thread-29 : 103.140.16.110 - - [05/Jul/2021 07:00:09] "[31m[1mGET /fac?n=ad HTTP/1.1[0m" 400 -
+2021-07-05 07:00:10,327 INFO calc Thread-31 : Started Febnocci....
+2021-07-05 07:00:10,327 ERROR calc Thread-31 : Output {"input": "-1", "Message": "Input less than 0, invalid input"}
+2021-07-05 07:00:10,328 INFO werkzeug Thread-31 : 103.140.16.110 - - [05/Jul/2021 07:00:10] "[31m[1mGET /feb?n=-1 HTTP/1.1[0m" 400 -
+2021-07-05 07:00:10,939 INFO calc Thread-33 : Started Auckerman....
+2021-07-05 07:00:10,939 INFO calc Thread-33 : ackermann(0,50): 51
+2021-07-05 07:00:10,939 INFO calc Thread-33 : execution time: 0:00:00.000202
+2021-07-05 07:00:10,939 INFO calc Thread-33 : Number of calls: 0
+2021-07-05 07:00:10,939 INFO calc Thread-33 : Cache Hit count: 0
+2021-07-05 07:00:10,939 INFO calc Thread-33 : Cache Miss count: 0
+2021-07-05 07:00:10,940 INFO calc Thread-33 : Output :{"input": {"n": 50, "m": 0}, "ouput": 51, "Message": "Success"}
+2021-07-05 07:00:10,941 INFO werkzeug Thread-33 : 103.140.16.110 - - [05/Jul/2021 07:00:10] "GET /ack?n=50&m=0 HTTP/1.1" 200 -
+2021-07-05 07:01:02,209 INFO calc Thread-37 : Started Auckerman....
+2021-07-05 07:01:02,210 INFO calc Thread-37 : ackermann(0,3): 4
+2021-07-05 07:01:02,210 INFO calc Thread-37 : execution time: 0:00:00.000219
+2021-07-05 07:01:02,210 INFO calc Thread-37 : Number of calls: 0
+2021-07-05 07:01:02,210 INFO calc Thread-37 : Cache Hit count: 0
+2021-07-05 07:01:02,210 INFO calc Thread-37 : Cache Miss count: 0
+2021-07-05 07:01:02,210 INFO calc Thread-37 : Output :{"input": {"n": 3, "m": 0}, "ouput": 4, "Message": "Success"}
+2021-07-05 07:01:02,211 INFO werkzeug Thread-37 : 103.140.16.110 - - [05/Jul/2021 07:01:02] "GET /ack?n=3&m=0 HTTP/1.1" 200 -
+2021-07-05 07:02:15,199 INFO calc Thread-41 : Started Auckerman....
+2021-07-05 07:02:15,199 ERROR calc Thread-41 : Output {"input": {"n": "10", "m": "undefined"}, "Message": "Error due to invalid literal for int() with base 10: 'undefined'"}
+2021-07-05 07:02:15,200 INFO werkzeug Thread-41 : 103.140.16.110 - - [05/Jul/2021 07:02:15] "[31m[1mGET /ack?n=10&m=undefined HTTP/1.1[0m" 400 -
+2021-07-05 07:02:49,685 INFO calc Thread-44 : Started Auckerman....
+2021-07-05 07:02:49,686 INFO calc Thread-44 : ackermann(0,1): 2
+2021-07-05 07:02:49,686 INFO calc Thread-44 : execution time: 0:00:00.000209
+2021-07-05 07:02:49,686 INFO calc Thread-44 : Number of calls: 0
+2021-07-05 07:02:49,686 INFO calc Thread-44 : Cache Hit count: 0
+2021-07-05 07:02:49,686 INFO calc Thread-44 : Cache Miss count: 0
+2021-07-05 07:02:49,686 INFO calc Thread-44 : Output :{"input": {"n": 1, "m": 0}, "ouput": 2, "Message": "Success"}
+2021-07-05 07:02:49,687 INFO werkzeug Thread-44 : 103.140.16.110 - - [05/Jul/2021 07:02:49] "GET /ack?n=1&m=0 HTTP/1.1" 200 -
+2021-07-05 07:03:02,881 INFO calc Thread-47 : Started Auckerman....
+2021-07-05 07:03:02,881 INFO calc Thread-47 : ackermann(0,2): 3
+2021-07-05 07:03:02,881 INFO calc Thread-47 : execution time: 0:00:00.000196
+2021-07-05 07:03:02,881 INFO calc Thread-47 : Number of calls: 0
+2021-07-05 07:03:02,881 INFO calc Thread-47 : Cache Hit count: 0
+2021-07-05 07:03:02,881 INFO calc Thread-47 : Cache Miss count: 0
+2021-07-05 07:03:02,881 INFO calc Thread-47 : Output :{"input": {"n": 2, "m": 0}, "ouput": 3, "Message": "Success"}
+2021-07-05 07:03:02,882 INFO werkzeug Thread-47 : 103.140.16.110 - - [05/Jul/2021 07:03:02] "GET /ack?n=2&m=0 HTTP/1.1" 200 -
+2021-07-05 07:03:21,299 INFO calc Thread-50 : started webservice factorial...
+2021-07-05 07:03:21,299 INFO calc Thread-50 : Output :{'input': '5', 'ouput': 120, 'Message': 'Success'}
+2021-07-05 07:03:21,301 INFO werkzeug Thread-50 : 103.140.16.110 - - [05/Jul/2021 07:03:21] "GET /fac?n=5 HTTP/1.1" 200 -
+2021-07-05 07:03:21,925 INFO calc Thread-52 : Started Febnocci....
+2021-07-05 07:03:21,926 INFO calc Thread-52 : Output :{"input": "6", "ouput": 8, "Message": "Success"}
+2021-07-05 07:03:21,927 INFO werkzeug Thread-52 : 103.140.16.110 - - [05/Jul/2021 07:03:21] "GET /feb?n=6 HTTP/1.1" 200 -
+2021-07-05 07:03:22,545 INFO calc Thread-54 : Started Auckerman....
+2021-07-05 07:03:22,545 INFO calc Thread-54 : ackermann(1,1): 3
+2021-07-05 07:03:22,545 INFO calc Thread-54 : execution time: 0:00:00.000203
+2021-07-05 07:03:22,545 INFO calc Thread-54 : Number of calls: 1
+2021-07-05 07:03:22,545 INFO calc Thread-54 : Cache Hit count: 1
+2021-07-05 07:03:22,545 INFO calc Thread-54 : Cache Miss count: 0
+2021-07-05 07:03:22,545 INFO calc Thread-54 : Output :{"input": {"n": 1, "m": 1}, "ouput": 3, "Message": "Success"}
+2021-07-05 07:03:22,547 INFO werkzeug Thread-54 : 103.140.16.110 - - [05/Jul/2021 07:03:22] "GET /ack?n=1&m=1 HTTP/1.1" 200 -
+2021-07-05 07:03:23,165 INFO calc Thread-56 : started webservice factorial...
+2021-07-05 07:03:23,166 ERROR calc Thread-56 : Output {"input": "ad", "Message": "Error due to invalid literal for int() with base 10: 'ad'"}
+2021-07-05 07:03:23,167 INFO werkzeug Thread-56 : 103.140.16.110 - - [05/Jul/2021 07:03:23] "[31m[1mGET /fac?n=ad HTTP/1.1[0m" 400 -
+2021-07-05 07:03:23,791 INFO calc Thread-58 : Started Febnocci....
+2021-07-05 07:03:23,792 ERROR calc Thread-58 : Output {"input": "-1", "Message": "Input less than 0, invalid input"}
+2021-07-05 07:03:23,793 INFO werkzeug Thread-58 : 103.140.16.110 - - [05/Jul/2021 07:03:23] "[31m[1mGET /feb?n=-1 HTTP/1.1[0m" 400 -
+2021-07-05 07:03:24,409 INFO calc Thread-60 : Started Auckerman....
+2021-07-05 07:03:24,409 INFO calc Thread-60 : ackermann(0,50): 51
+2021-07-05 07:03:24,409 INFO calc Thread-60 : execution time: 0:00:00.000224
+2021-07-05 07:03:24,410 INFO calc Thread-60 : Number of calls: 0
+2021-07-05 07:03:24,410 INFO calc Thread-60 : Cache Hit count: 0
+2021-07-05 07:03:24,410 INFO calc Thread-60 : Cache Miss count: 0
+2021-07-05 07:03:24,410 INFO calc Thread-60 : Output :{"input": {"n": 50, "m": 0}, "ouput": 51, "Message": "Success"}
+2021-07-05 07:03:24,411 INFO werkzeug Thread-60 : 103.140.16.110 - - [05/Jul/2021 07:03:24] "GET /ack?n=50&m=0 HTTP/1.1" 200 -
+2021-07-05 07:03:31,822 INFO apscheduler.scheduler MainThread : Scheduler has been shut down
+2021-07-05 07:03:31,822 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2021-07-05 07:03:31,823 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2021-07-05 07:03:31,976 INFO apscheduler.scheduler MainThread : Scheduler has been shut down
+2021-07-05 07:03:31,976 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2021-07-05 07:03:31,976 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2021-07-05 07:05:09,051 INFO apscheduler.scheduler MainThread : Scheduler started
+2021-07-05 07:05:09,051 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2021-07-05 07:05:09,063 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2021-07-05 07:05:09,099 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-07-05 07:05:09,099 INFO werkzeug MainThread :  * Running on http://172.31.3.124:5001/ (Press CTRL+C to quit)
+2021-07-05 07:05:09,100 INFO werkzeug MainThread :  * Restarting with stat
+2021-07-05 07:05:09,985 INFO apscheduler.scheduler MainThread : Scheduler started
+2021-07-05 07:05:09,985 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2021-07-05 07:05:09,995 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2021-07-05 07:05:10,035 WARNING werkzeug MainThread :  * Debugger is active!
+2021-07-05 07:05:10,035 INFO werkzeug MainThread :  * Debugger PIN: 346-795-841
+2021-07-05 07:05:15,138 INFO calc Thread-2 : Started Auckerman....
+2021-07-05 07:05:15,139 INFO calc Thread-2 : ackermann(0,3): 4
+2021-07-05 07:05:15,139 INFO calc Thread-2 : execution time: 0:00:00.000225
+2021-07-05 07:05:15,139 INFO calc Thread-2 : Number of calls: 0
+2021-07-05 07:05:15,139 INFO calc Thread-2 : Output :{"input": {"n": 3, "m": 0}, "ouput": 4, "Message": "Success"}
+2021-07-05 07:05:15,141 INFO werkzeug Thread-2 : 103.140.16.110 - - [05/Jul/2021 07:05:15] "GET /ack?n=3&m=0 HTTP/1.1" 200 -
+2021-07-05 07:05:20,348 INFO calc Thread-6 : Started Auckerman....
+2021-07-05 07:05:20,348 ERROR calc Thread-6 : Output {"input": ["3", null], "Message": "We need two numbers as input, one missing"}
+2021-07-05 07:05:20,349 INFO werkzeug Thread-6 : 103.140.16.110 - - [05/Jul/2021 07:05:20] "[31m[1mGET /ack?n=3 HTTP/1.1[0m" 400 -
+2021-07-05 07:05:26,459 INFO calc Thread-10 : Started Auckerman....
+2021-07-05 07:05:26,459 INFO calc Thread-10 : ackermann(0,3): 4
+2021-07-05 07:05:26,459 INFO calc Thread-10 : execution time: 0:00:00.000215
+2021-07-05 07:05:26,459 INFO calc Thread-10 : Number of calls: 0
+2021-07-05 07:05:26,460 INFO calc Thread-10 : Output :{"input": {"n": 3, "m": 0}, "ouput": 4, "Message": "Success"}
+2021-07-05 07:05:26,461 INFO werkzeug Thread-10 : 103.140.16.110 - - [05/Jul/2021 07:05:26] "GET /ack?n=3&m=0 HTTP/1.1" 200 -
+2021-07-05 07:05:31,088 INFO calc Thread-14 : Started Auckerman....
+2021-07-05 07:05:31,089 INFO calc Thread-14 : ackermann(1,3): 5
+2021-07-05 07:05:31,089 INFO calc Thread-14 : execution time: 0:00:00.000214
+2021-07-05 07:05:31,089 INFO calc Thread-14 : Number of calls: 1
+2021-07-05 07:05:31,089 INFO calc Thread-14 : Cache Hit count: 0
+2021-07-05 07:05:31,089 INFO calc Thread-14 : Cache Miss count: 1
+2021-07-05 07:05:31,089 INFO calc Thread-14 : Output :{"input": {"n": 3, "m": 1}, "ouput": 5, "Message": "Success"}
+2021-07-05 07:05:31,090 INFO werkzeug Thread-14 : 103.140.16.110 - - [05/Jul/2021 07:05:31] "GET /ack?n=3&m=1 HTTP/1.1" 200 -
+2021-07-05 07:05:36,270 INFO calc Thread-18 : Started Auckerman....
+2021-07-05 07:05:36,271 ERROR calc Thread-18 : Output for Auckerman :{"input": {"n": 3, "m": 10}, "Message": "For this input, calculation is not psossible due to memory constrains,will get memory error, enter correct data"}
+2021-07-05 07:05:36,272 INFO werkzeug Thread-18 : 103.140.16.110 - - [05/Jul/2021 07:05:36] "GET /ack?n=3&m=10 HTTP/1.1" 200 -
+2021-07-05 07:05:40,487 INFO calc Thread-22 : Started Auckerman....
+2021-07-05 07:05:40,487 ERROR calc Thread-22 : Output for Auckerman :{"input": {"n": 3, "m": 9}, "Message": "For this input, calculation is not psossible due to memory constrains,will get memory error, enter correct data"}
+2021-07-05 07:05:40,488 INFO werkzeug Thread-22 : 103.140.16.110 - - [05/Jul/2021 07:05:40] "GET /ack?n=3&m=9 HTTP/1.1" 200 -
+2021-07-05 07:05:45,503 INFO calc Thread-26 : Started Auckerman....
+2021-07-05 07:05:45,504 ERROR calc Thread-26 : Output for Auckerman :{"input": {"n": 3, "m": 5}, "Message": "For this input, calculation is not psossible due to memory constrains,will get memory error, enter correct data"}
+2021-07-05 07:05:45,505 INFO werkzeug Thread-26 : 103.140.16.110 - - [05/Jul/2021 07:05:45] "GET /ack?n=3&m=5 HTTP/1.1" 200 -
+2021-07-05 07:05:51,087 INFO calc Thread-30 : Started Auckerman....
+2021-07-05 07:05:51,087 ERROR calc Thread-30 : Output for Auckerman :{"input": {"n": 3, "m": 4}, "Message": "For this input, calculation is not psossible due to memory constrains,will get memory error, enter correct data"}
+2021-07-05 07:05:51,088 INFO werkzeug Thread-30 : 103.140.16.110 - - [05/Jul/2021 07:05:51] "GET /ack?n=3&m=4 HTTP/1.1" 200 -
+2021-07-05 07:05:53,586 INFO calc Thread-33 : Started Auckerman....
+2021-07-05 07:05:53,587 INFO calc Thread-33 : ackermann(3,3): 61
+2021-07-05 07:05:53,587 INFO calc Thread-33 : execution time: 0:00:00.000299
+2021-07-05 07:05:53,587 INFO calc Thread-33 : Number of calls: 67
+2021-07-05 07:05:53,587 INFO calc Thread-33 : Cache Hit count: 4
+2021-07-05 07:05:53,587 INFO calc Thread-33 : Cache Miss count: 63
+2021-07-05 07:05:53,587 INFO calc Thread-33 : Output :{"input": {"n": 3, "m": 3}, "ouput": 61, "Message": "Success"}
+2021-07-05 07:05:53,589 INFO werkzeug Thread-33 : 103.140.16.110 - - [05/Jul/2021 07:05:53] "GET /ack?n=3&m=3 HTTP/1.1" 200 -
+2021-07-05 07:05:58,610 INFO calc Thread-36 : Started Auckerman....
+2021-07-05 07:05:58,620 INFO calc Thread-36 : ackermann(3,10): 8189
+2021-07-05 07:05:58,620 INFO calc Thread-36 : execution time: 0:00:00.009582
+2021-07-05 07:05:58,620 INFO calc Thread-36 : Number of calls: 8143
+2021-07-05 07:05:58,620 INFO calc Thread-36 : Cache Hit count: 8
+2021-07-05 07:05:58,620 INFO calc Thread-36 : Cache Miss count: 8135
+2021-07-05 07:05:58,620 INFO calc Thread-36 : Output :{"input": {"n": 10, "m": 3}, "ouput": 8189, "Message": "Success"}
+2021-07-05 07:05:58,622 INFO werkzeug Thread-36 : 103.140.16.110 - - [05/Jul/2021 07:05:58] "GET /ack?n=10&m=3 HTTP/1.1" 200 -
+2021-07-05 07:06:03,351 INFO calc Thread-40 : Started Auckerman....
+2021-07-05 07:06:03,419 INFO calc Thread-40 : ackermann(3,13): 65533
+2021-07-05 07:06:03,420 INFO calc Thread-40 : execution time: 0:00:00.068468
+2021-07-05 07:06:03,420 INFO calc Thread-40 : Number of calls: 57351
+2021-07-05 07:06:03,420 INFO calc Thread-40 : Cache Hit count: 4
+2021-07-05 07:06:03,420 INFO calc Thread-40 : Cache Miss count: 57347
+2021-07-05 07:06:03,420 INFO calc Thread-40 : Output :{"input": {"n": 13, "m": 3}, "ouput": 65533, "Message": "Success"}
+2021-07-05 07:06:03,421 INFO werkzeug Thread-40 : 103.140.16.110 - - [05/Jul/2021 07:06:03] "GET /ack?n=13&m=3 HTTP/1.1" 200 -
+2021-07-05 07:06:11,409 INFO calc Thread-44 : Started Auckerman....
+2021-07-05 07:06:11,409 ERROR calc Thread-44 : Output for Auckerman :{"input": {"n": 14, "m": 3}, "Message": "For this input, calculation is not psossible due to memory constrains,will get memory error, enter correct data"}
+2021-07-05 07:06:11,411 INFO werkzeug Thread-44 : 103.140.16.110 - - [05/Jul/2021 07:06:11] "GET /ack?n=14&m=3 HTTP/1.1" 200 -
+2021-07-05 07:06:30,205 INFO calc Thread-48 : Started Auckerman....
+2021-07-05 07:06:30,205 INFO calc Thread-48 : ackermann(3,13): 65533
+2021-07-05 07:06:30,205 INFO calc Thread-48 : execution time: 0:00:00.000203
+2021-07-05 07:06:30,205 INFO calc Thread-48 : Number of calls: 1
+2021-07-05 07:06:30,205 INFO calc Thread-48 : Cache Hit count: 1
+2021-07-05 07:06:30,205 INFO calc Thread-48 : Cache Miss count: 0
+2021-07-05 07:06:30,206 INFO calc Thread-48 : Output :{"input": {"n": 13, "m": 3}, "ouput": 65533, "Message": "Success"}
+2021-07-05 07:06:30,207 INFO werkzeug Thread-48 : 103.140.16.110 - - [05/Jul/2021 07:06:30] "GET /ack?n=13&m=3 HTTP/1.1" 200 -
+2021-07-05 07:06:35,972 INFO calc Thread-52 : Started Auckerman....
+2021-07-05 07:06:35,972 INFO calc Thread-52 : ackermann(3,12): 32765
+2021-07-05 07:06:35,972 INFO calc Thread-52 : execution time: 0:00:00.000224
+2021-07-05 07:06:35,973 INFO calc Thread-52 : Number of calls: 1
+2021-07-05 07:06:35,973 INFO calc Thread-52 : Cache Hit count: 1
+2021-07-05 07:06:35,973 INFO calc Thread-52 : Cache Miss count: 0
+2021-07-05 07:06:35,973 INFO calc Thread-52 : Output :{"input": {"n": 12, "m": 3}, "ouput": 32765, "Message": "Success"}
+2021-07-05 07:06:35,974 INFO werkzeug Thread-52 : 103.140.16.110 - - [05/Jul/2021 07:06:35] "GET /ack?n=12&m=3 HTTP/1.1" 200 -
+2021-07-05 07:06:40,141 INFO calc Thread-57 : Started Auckerman....
+2021-07-05 07:06:40,141 INFO calc Thread-57 : ackermann(3,11): 16381
+2021-07-05 07:06:40,141 INFO calc Thread-57 : execution time: 0:00:00.000203
+2021-07-05 07:06:40,141 INFO calc Thread-57 : Number of calls: 1
+2021-07-05 07:06:40,141 INFO calc Thread-57 : Cache Hit count: 1
+2021-07-05 07:06:40,142 INFO calc Thread-57 : Cache Miss count: 0
+2021-07-05 07:06:40,142 INFO calc Thread-57 : Output :{"input": {"n": 11, "m": 3}, "ouput": 16381, "Message": "Success"}
+2021-07-05 07:06:40,143 INFO werkzeug Thread-57 : 103.140.16.110 - - [05/Jul/2021 07:06:40] "GET /ack?n=11&m=3 HTTP/1.1" 200 -
+2021-07-05 07:06:48,569 INFO calc Thread-60 : Started Auckerman....
+2021-07-05 07:06:48,570 INFO calc Thread-60 : ackermann(3,11): 16381
+2021-07-05 07:06:48,570 INFO calc Thread-60 : execution time: 0:00:00.000212
+2021-07-05 07:06:48,570 INFO calc Thread-60 : Number of calls: 1
+2021-07-05 07:06:48,570 INFO calc Thread-60 : Cache Hit count: 1
+2021-07-05 07:06:48,570 INFO calc Thread-60 : Cache Miss count: 0
+2021-07-05 07:06:48,570 INFO calc Thread-60 : Output :{"input": {"n": 11, "m": 3}, "ouput": 16381, "Message": "Success"}
+2021-07-05 07:06:48,571 INFO werkzeug Thread-60 : 103.140.16.110 - - [05/Jul/2021 07:06:48] "GET /ack?n=11&m=3 HTTP/1.1" 200 -
+2021-07-05 07:06:53,949 INFO calc Thread-64 : Started Auckerman....
+2021-07-05 07:06:53,949 INFO calc Thread-64 : ackermann(3,10): 8189
+2021-07-05 07:06:53,950 INFO calc Thread-64 : execution time: 0:00:00.000196
+2021-07-05 07:06:53,950 INFO calc Thread-64 : Number of calls: 1
+2021-07-05 07:06:53,950 INFO calc Thread-64 : Cache Hit count: 1
+2021-07-05 07:06:53,950 INFO calc Thread-64 : Cache Miss count: 0
+2021-07-05 07:06:53,950 INFO calc Thread-64 : Output :{"input": {"n": 10, "m": 3}, "ouput": 8189, "Message": "Success"}
+2021-07-05 07:06:53,951 INFO werkzeug Thread-64 : 103.140.16.110 - - [05/Jul/2021 07:06:53] "GET /ack?n=10&m=3 HTTP/1.1" 200 -
+2021-07-05 07:07:01,015 INFO calc Thread-68 : Started Auckerman....
+2021-07-05 07:07:01,015 INFO calc Thread-68 : ackermann(3,9): 4093
+2021-07-05 07:07:01,015 INFO calc Thread-68 : execution time: 0:00:00.000211
+2021-07-05 07:07:01,015 INFO calc Thread-68 : Number of calls: 1
+2021-07-05 07:07:01,015 INFO calc Thread-68 : Cache Hit count: 1
+2021-07-05 07:07:01,015 INFO calc Thread-68 : Cache Miss count: 0
+2021-07-05 07:07:01,016 INFO calc Thread-68 : Output :{"input": {"n": 9, "m": 3}, "ouput": 4093, "Message": "Success"}
+2021-07-05 07:07:01,017 INFO werkzeug Thread-68 : 103.140.16.110 - - [05/Jul/2021 07:07:01] "GET /ack?n=9&m=3 HTTP/1.1" 200 -
+2021-07-05 07:07:10,671 INFO calc Thread-72 : Started Auckerman....
+2021-07-05 07:07:10,671 INFO calc Thread-72 : ackermann(3,7): 1021
+2021-07-05 07:07:10,671 INFO calc Thread-72 : execution time: 0:00:00.000204
+2021-07-05 07:07:10,671 INFO calc Thread-72 : Number of calls: 1
+2021-07-05 07:07:10,671 INFO calc Thread-72 : Cache Hit count: 1
+2021-07-05 07:07:10,671 INFO calc Thread-72 : Cache Miss count: 0
+2021-07-05 07:07:10,671 INFO calc Thread-72 : Output :{"input": {"n": 7, "m": 3}, "ouput": 1021, "Message": "Success"}
+2021-07-05 07:07:10,673 INFO werkzeug Thread-72 : 103.140.16.110 - - [05/Jul/2021 07:07:10] "GET /ack?n=7&m=3 HTTP/1.1" 200 -
+2021-07-05 07:07:21,350 INFO apscheduler.scheduler MainThread : Scheduler has been shut down
+2021-07-05 07:07:21,350 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2021-07-05 07:07:21,350 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added
+2021-07-05 07:07:21,504 INFO apscheduler.scheduler MainThread : Scheduler has been shut down
+2021-07-05 07:07:21,504 DEBUG apscheduler.scheduler APScheduler : Looking for jobs to run
+2021-07-05 07:07:21,504 DEBUG apscheduler.scheduler APScheduler : No jobs; waiting until a job is added

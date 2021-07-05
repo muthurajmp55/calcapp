@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>login form</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='/css/login.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style type="text/css">
+      .error{
+        color:red;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="post" id="signupform" action="{{url_for('login')}}" autocomplete="off">
+      <h1>Login Form</h1>
+      <div class="formcontainer">
+      <hr/>
+      <div class="container">
+        <label for="uname"><strong>Username</strong></label>
+        <input type="text" placeholder="Enter Username - admin" id="name" name="name" value="" required>
+        <label for="psw"><strong>Password</strong></label>
+        <input type="password" placeholder="Enter Password - admin123" id="password" name="password" value="" required>
+      </div>
+      <!-- Flash Message Starts -->
+      {% if messages %}
+          {% for msg in messages %}
+              <div class="alert alert-danger" role="alert">
+                {{msg.message}}
+              </div>
+          {% endfor %}
+      {% endif %}
+      <!-- Flash Message Ends -->
+      <button type="submit" id="signup" name="signup" class="btn btn-primary btn-block">Login</button>
+    </div>
+    </form>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/additional-methods.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $("#signupform").validate({
+      rules:
+      {
+        name: {required:true},
+        password: { required:true}
+      },
+      messages:{
+        name:{
+            required:"Name field is required"
+          },
+         password:{required:"Password field is required"} 
+      },  
+      submitHandler: function(signupform) 
+        {
+        signupform.submit();
+        }
+    });
+  });
+  </script>
+</html>
