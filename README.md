@@ -6,7 +6,7 @@
     - [Febnocci](#fibnocci)
     - [Factorial](#factorial)	
     - [Auckerman](#auckerman)	
-    - [Web interphase](#webinterphase)	
+    - [Webinterphase](#webinterphase)	
     - [API Monitoring](#apimonitoring)
     - [Local set up](#localsetup])		
 <!-- /TOC -->
@@ -158,7 +158,7 @@ iteratively call the auckerman calculator and result is stored in the cache.
 
 If result not found in cache , then only iterative call happens.
 
-## Web interphase
+## Webinterphase
 
 I have built a web interphase for this project.
 
@@ -184,7 +184,7 @@ Function output Screen:
 
 ![project function out](app-funtio-execution.PNG)
 
-## API Monitoring
+## APIMonitoring
 I haved used "Flask Monitoring Dashboard" to monitor the perfomance of the application. 
 
 We can monitor following attributes.
