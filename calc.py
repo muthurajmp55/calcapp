@@ -1,6 +1,6 @@
 from flask import Flask, render_template, jsonify,flash,request,redirect, url_for, session
 from flask import Flask,jsonify, make_response
-import flask_monitoringdashboard as dashboard
+#import flask_monitoringdashboard as dashboard
 from auk import Ackermann,fib,factorial
 import logging
 import json
@@ -17,7 +17,7 @@ import sys
 #dashboard.bind(app)
 app = Flask(__name__)
 logging.basicConfig(filename='app.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
-dashboard.bind(app)
+#dashboard.bind(app)
 @app.route('/')
 def hello():
 	return "welcome to the flask Implementation by Muthu"
