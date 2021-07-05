@@ -63,7 +63,7 @@ space complexity:O(n)
 simple method is directly calling the funtions recursivily. to improve the perfomance decided dynamic programming approach, which will avoid duplicate calculation.
 
 
-##Factorial
+## Factorial
 
 end_point			:hostname:5001/fac
 
@@ -109,7 +109,7 @@ Reponse code:400
 				n -= 1
 			return fact
 
-##Auckerman
+## Auckerman
 
 end_point			:hostname:5001/ack
 
